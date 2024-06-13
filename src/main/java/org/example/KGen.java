@@ -57,7 +57,7 @@ class KGen {
 
         if (fasta == null || fasta.length() < size) {
 
-            System.out.println("Datos insuficientes para generar el mapa de tamaño " + size);
+            System.out.println("No se puede generar el mapa");
             return kgenMap;
 
         }
