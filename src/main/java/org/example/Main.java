@@ -15,14 +15,14 @@ public class Main {
 
         do {
 
-            System.out.println("Seleccione una de las siguientes opciones:\na. Abrir fichero FASTA\nb. Calcular y mostrar mapa de palabras de tamaño...\nc. Salir");
+            System.out.println("Seleccione una de las siguientes opciones:\na. Abrir fichero FASTA\nb. Calcular y mostrar mapa\nc. Salir");
             option = miScan.nextLine().charAt(0);
 
             switch (option) {
 
                 case 'a':
 
-                    System.out.print("Introduzca el nombre (o el path) del fichero FASTA: ");
+                    System.out.print("Introduzca el path del fichero FASTA: ");
                     String fileName = miScan.nextLine();
 
                     try {
